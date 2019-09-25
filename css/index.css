@@ -251,6 +251,9 @@ body {
     width: 355px;
   }
 }
+.hero .hero_left a {
+  text-decoration: none;
+}
 .hero .hero_left .cta_btn {
   display: flex;
   align-items: center;
@@ -405,6 +408,9 @@ body {
   background-image: linear-gradient(-46deg, #6f52ed, #b5a6f3);
   margin: 100px 0px;
   padding: 60px 0px;
+}
+.cta_overflow a {
+  text-decoration: none;
 }
 .cta_overflow .master_container {
   display: flex;
