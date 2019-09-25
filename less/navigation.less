@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+
+  a {
+    font-size: 1.6rem;
+    color: @light_text;
+    .text_hover;
+    .roboto(700);
+    text-decoration: none;
+    margin: 0px 20px;
+    transition: all 500ms;
+
+    @media @mobile {
+      font-size: 1.4rem;
+    }
+  }
+
+  .logo {
+    margin-right: 50px;
+
+    @media @mobile {
+      margin-right: 15px;
+      width: 100px;
+      height: 21;
+    }
+  }
+
+  button {
+    margin-left: 20px;
+    .button;
+
+    @media @mobile {
+      display: none;
+    }
+  }
+  .login {
+    color: @brand;
+  }
+}
